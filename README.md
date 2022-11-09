@@ -9,3 +9,4 @@
 - flexbox, Grid Layout.
 
 ## Ссылка на проект:
+https://nickyanfe.github.io/russian-travel/index.html
