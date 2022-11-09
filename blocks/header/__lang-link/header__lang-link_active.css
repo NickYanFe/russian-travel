@@ -1,7 +1,7 @@
 .header__lang-link_active {
     width: 30px;
     height: 28px;
-    text-decoration: underline; 
+    text-decoration: underline;
     transition: opacity 0.8s ease;
 }
 
