@@ -1,0 +1,31 @@
+.header__lang-link {
+    margin: 18px 0 6px; 
+    margin-right: 18px;
+    padding: 0;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 28px;
+    text-align: center;
+    width: 29px;
+    height: 28px;
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: opacity 0.8s ease;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.header__lang-link:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+      width: 22px;
+      height: 20px;
+         }
+}
