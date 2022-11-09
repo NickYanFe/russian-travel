@@ -1,13 +1,13 @@
-.places__place_image {
+.place__image {
     max-width: 100%;
     max-height: 100%;
-    grid-area: places__place_image;
+    grid-area: place__image;
     display: block; 
   }
 
 
 @media screen and (max-width: 320px) {
-    .places__place_image {
+    .place__image {
     max-width: 320px;
     max-height: 320px;
     }

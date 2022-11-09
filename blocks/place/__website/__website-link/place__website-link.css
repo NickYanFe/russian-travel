@@ -1,4 +1,4 @@
-.places__place_website_link {
+.place__website-link {
     margin: 0;
     padding: 0;
     font-weight: 400;
@@ -8,5 +8,5 @@
     margin-top: 12px;
     max-width: 456px;
     height: 22px;
-    grid-area: places__place_website_link;
+    grid-area: place__website-link;
 }
