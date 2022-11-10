@@ -1,14 +1,14 @@
 .place__image {
-    max-width: 100%;
-    max-height: 100%;
-    grid-area: place__image;
-    display: block; 
-  }
-
+  max-width: 100%; 
+  max-height: 100%;
+  grid-area: place__image;
+  display: block;
+  box-sizing: 1fr;
+}
 
 @media screen and (max-width: 320px) {
-    .place__image {
+  .place__image {
     max-width: 320px;
     max-height: 320px;
-    }
+  }
 }

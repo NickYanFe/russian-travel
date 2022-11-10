@@ -1,46 +1,43 @@
 .place {
-max-width: 984px;
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(4, minmax(min-content, max-content));
-grid-template-areas: 
-"place__title place__website"
-"place__image place__paragraph_position-top"
-"place__image place__paragraph_position-bottom"
-"place__image .";
-gap: 40px;
-margin-bottom: 80px;
-
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, minmax(min-content, max-content));
+  grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraph_position-top"
+    "place__image place__paragraph_position-bottom"
+    "place__image .";
+  gap: 40px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1024px) {
-    .place {
-        grid-template-columns: repeat(2, 50vw);
-        max-width: 928px;
-        gap: 32px;
-        margin-left: 48px;
-        margin-right: 48px;
-
-    }
+  .place {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 928px;
+    gap: 32px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .place {
-        max-width: 100vmax;
-        gap: 28px;
-        margin-left: 24px;
-        margin-right: 24px;
-
-    }
-} 
+  .place {
+    max-width: 100vmax;
+    gap: 28px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
 
 @media screen and (max-width: 630px) {
-    .place {
-        max-width: 100vmax;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 50px;
-        margin-left: 16px;
-        margin-right: 16px;
-    }
+  .place {
+    max-width: 100vmax;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

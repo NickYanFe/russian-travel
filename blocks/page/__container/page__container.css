@@ -1,25 +1,26 @@
 .page__container {
-    overflow: hidden;
-   min-width: 320px;
-   max-width: 1280px;
-   margin: 0 auto;
-   background-color: #2A2C2F;
+  overflow: hidden;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #2a2c2f;
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-    .page__container {
-        max-width: 1024px;
-    }
+  .page__container {
+    max-width: 1024px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .page__container {
-        max-width: 768px;
-    }
+  .page__container {
+    max-width: 768px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .page__container {
-        max-width: 320px;
-    }
+  .page__container {
+    max-width: 320px;
+  }
 }
