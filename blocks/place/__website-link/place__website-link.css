@@ -3,10 +3,10 @@
   padding: 0;
   font-weight: 400;
   font-size: 18px;
+  text-decoration: underline;
   line-height: 22px;
   color: #ffffff;
   margin-top: 12px;
   max-width: 456px;
-  height: 22px;
   grid-area: place__website-link;
 }

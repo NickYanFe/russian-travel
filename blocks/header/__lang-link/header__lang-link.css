@@ -6,8 +6,6 @@
   color: #ffffff;
   line-height: 28px;
   text-align: center;
-  width: 29px;
-  height: 28px;
   text-decoration: none;
   cursor: pointer;
   transition: opacity 0.8s ease;
@@ -24,7 +22,8 @@
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
-    width: 22px;
-    height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
   }
 }

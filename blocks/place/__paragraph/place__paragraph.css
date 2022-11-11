@@ -3,7 +3,7 @@
   padding: 0;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29, 34px;
+  line-height: 29.34px;
   color: #ffffff;
   max-width: 484px;
 }
@@ -11,15 +11,13 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 26, 08px;
+    line-height: 26.08px;
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 630px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 26, 08px;
     max-width: 100%;
   }
 }
@@ -29,5 +27,8 @@
     margin-bottom: 25px;
     margin-left: 16px;
     max-width: 288px;
+  }
+  .place__paragraph:nth-last-of-type(1) {
+    margin-bottom: 0;
   }
 }
